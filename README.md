@@ -14,8 +14,8 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 ---
 
 ### 💼 Experience Highlights
-* **Big Data Analytics Project-Based Intern** at Kimia Farma x Rakamin Academy[cite: 1]
-* **Machine Learning Cohort (Studi Independen)** at Bangkit Academy (Google, Gojek, Tokopedia, Traveloka)[cite: 1]
+* **Big Data Analytics Project-Based Intern** at Kimia Farma x Rakamin Academy
+* **Machine Learning Cohort (Studi Independen)** at Bangkit Academy (Google, Gojek, Tokopedia, Traveloka)
 
 ---
 
