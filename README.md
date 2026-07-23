@@ -1,6 +1,6 @@
 ### Hi there, I'm David Sebastian Aritonang! 👋
 
-I am a data-driven Junior Data Analyst with a solid foundation in Information Systems (GPA: 3.66/4.00) from Universitas Gunadarma. I have hands-on experience in executing business performance audits, marketing analytics, and transforming raw transactional and social media data into actionable insights using SQL, Python, and Advanced Excel.
+I am a data-driven Junior Data Analyst with a solid foundation in Information Systems (GPA: 3.66/4.00) from Gunadarma University. I have hands-on experience in executing business performance audits, marketing analytics, and transforming raw transactional and social media data into actionable insights using SQL, Python, and Advanced Excel.
 
 ---
 
