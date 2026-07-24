@@ -27,7 +27,7 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 
 ---
 
-### 📫 Connect with Me[cite: 1]
+### 📫 Connect with Me
 * **LinkedIn:** [linkedin.com/in/david-sartt](https://www.linkedin.com/in/david-sartt/)
 * **Tableau Public:** [Tableau Profile](https://public.tableau.com/app/profile/david.sebastian6737/vizzes)
 * **Email:** davidsebastianartt@gmail.com
