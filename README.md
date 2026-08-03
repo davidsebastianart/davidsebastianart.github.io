@@ -49,7 +49,7 @@ For a comprehensive view of my professional background, project achievements, te
 * **Jakarta FnB KOL Audit (Social Media Analytics)** — Audited influencer engagement metrics and ROI effectiveness using Python for visual storytelling and content strategy optimization.
 * **UMKM Financial Success Analysis** — Created interactive Excel dashboards with Power Query & PivotTables to benchmark SME financial health and digital adoption.
 
-> 📁 **[Click here to view all project source code & documentation repositories](https://github.com/davidsebastianart?tab=repositories)**
+> 📁 **[Click here to view all project source code & documentation repositories](https://github.com/davidsebastianart/)**
 
 ---
 
