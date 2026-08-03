@@ -22,8 +22,9 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 ### 📜 Professional Certifications
 * Google Data Analytics & Google AI by Google (Coursera)
 * Data Analyst by Badan Nasional Sertifikasi Profesi (BNSP)
-* English for Business Communication (B2 Level) by The British Institute
-* SQL, Python, Excel & Data Analysis, Data Engineer Track by DataCamp
+* Associate Data Engineer in SQL by DataCamp
+* Intermediate SQL & Python by DataCamp
+* Data Preparation & Analysis in Excel by DataCamp
 
 ---
 
