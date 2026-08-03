@@ -1,20 +1,18 @@
 ---
 ---
-
-@import "{{ site.theme }}";
-
-.page-header,
-.page-header h1,
-.page-header h1 a,
+h1,
+h1 a,
+.site-header h1,
+.site-header h1 a,
 .site-title,
-.site-header a,
+.site-title a,
+header h1,
 header h1 a {
   color: #24292e !important;
   text-decoration: none !important;
 }
 
-.page-header h1 a:hover,
-.site-title:hover {
+h1 a:hover,
+.site-title a:hover {
   color: #24292e !important;
-  text-decoration: none !important;
 }
