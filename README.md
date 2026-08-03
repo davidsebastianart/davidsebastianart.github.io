@@ -1,3 +1,8 @@
+<style>
+  header, .site-header, .page-header { display: none !important; }
+  main, .main-content { padding-top: 10px !important; }
+</style>
+
 # Hi there, I'm David Sebastian Aritonang! 👋
 ### Junior Data Analyst | SQL, Python, & Data Visualization
 
