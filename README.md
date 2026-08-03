@@ -20,7 +20,7 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 
 For a comprehensive view of my professional background, project achievements, technical competencies, and educational background, you can access my official resume directly:
 
-👉 **[Download / View Full Resume (PDF)](https://docs.google.com/document/d/16yiq3gLZDm5iW3tbkudBPwVMoj9eGL5-y6D3RT0brlw/export?format=pdf)** *(Always updated in real-time)*
+👉 **[Download / View Full Resume (PDF)](https://docs.google.com/document/d/16yiq3gLZDm5iW3tbkudBPwVMoj9eGL5-y6D3RT0brlw/export?format=pdf)**
 
 ---
 
