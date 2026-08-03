@@ -30,6 +30,6 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 ---
 
 ### 📫 Connect with Me
-* [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]**LinkedIn:** [linkedin.com/in/david-sartt](https://www.linkedin.com/in/david-sartt/)
-* [![Tableau](https://img.shields.io/badge/📊_Tableau_Public-E97627?style=for-the-badge&logo=tableau&logoColor=white)]**Tableau Public:** [Tableau Profile](https://public.tableau.com/app/profile/david.sebastian6737/vizzes)
+* **LinkedIn:** [linkedin.com/in/david-sartt](https://www.linkedin.com/in/david-sartt/)
+* **Tableau Public:** [Tableau Profile](https://public.tableau.com/app/profile/david.sebastian6737/vizzes)
 * **Email:** davidsebastianartt@gmail.com
