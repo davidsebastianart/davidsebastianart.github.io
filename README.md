@@ -10,9 +10,18 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 
 ## 🚀 Quick Navigation & Portfolio Links
 
+[![View Resume PDF](https://img.shields.io/badge/📄_Download_Latest_Resume-D9376E?style=for-the-badge&logo=google-drive&logoColor=white)](LINK_EXPORT_GOOGLE_DOCS_KAMU)
 [![Explore Repositories](https://img.shields.io/badge/📁_View_Project_Repositories-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davidsebastianart?tab=repositories)
 [![View Certifications](https://img.shields.io/badge/📜_Verified_Certifications_Page-007ACC?style=for-the-badge&logo=github&logoColor=white)](https://davidsebastianart.github.io/certifications/)
 [![Tableau Profile](https://img.shields.io/badge/📊_Tableau_Public_Portfolio-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/david.sebastian6737/vizzes)
+
+---
+
+## 📄 Detailed Professional Resume
+
+For a comprehensive view of my professional background, project achievements, technical competencies, and educational background, you can access my official resume directly:
+
+👉 **[Download / View Full Resume (PDF)](https://docs.google.com/document/d/16yiq3gLZDm5iW3tbkudBPwVMoj9eGL5-y6D3RT0brlw/export?format=pdf)** *(Always updated in real-time)*
 
 ---
 
