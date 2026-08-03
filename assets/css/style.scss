@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Ubah warna header title menjadi hitam */
+header h1 a, 
+.site-title, 
+.page-header h1 {
+  color: #24292e !important;
+  text-decoration: none !important;
+  pointer-events: none;
+}
