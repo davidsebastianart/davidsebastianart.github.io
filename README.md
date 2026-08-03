@@ -25,7 +25,7 @@ I am a data-driven Junior Data Analyst with a solid foundation in Information Sy
 * Associate Data Engineer in SQL by DataCamp
 * Intermediate SQL & Python by DataCamp
 * Data Preparation & Analysis in Excel by DataCamp
-[View All Certifications & Licenses](https://davidsebastianart.github.io/certifications/)
+> [View All Certifications & Licenses](https://davidsebastianart.github.io/certifications/)
 
 ---
 
