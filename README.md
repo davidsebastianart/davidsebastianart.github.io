@@ -1,12 +1,3 @@
-<style>
-  header h1 a, 
-  .site-title, 
-  .page-header h1 {
-    color: #24292e !important;
-    text-decoration: none !important;
-    pointer-events: none;
-  }
-</style>
 ### Junior Data Analyst | SQL, Python, & Data Visualization
 
 I am a data-driven Junior Data Analyst with a solid foundation in Information Systems (GPA: 3.66/4.00) from Gunadarma University. I have hands-on experience in executing business performance audits, marketing analytics, and transforming raw transactional and social media data into actionable insights using **SQL**, **Python**, and **Advanced Excel**.
