@@ -1,6 +1,6 @@
-### Junior Data Analyst | SQL, Python, & Data Visualization
+### Data Specialist | ELT Pipelines, Data Modeling, & Business Intelligence
 
-I am a data-driven Junior Data Analyst with a solid foundation in Information Systems (GPA: 3.66/4.00) from Gunadarma University. I have hands-on experience in executing business performance audits, marketing analytics, and transforming raw transactional and social media data into actionable insights using **SQL**, **Python**, and **Advanced Excel**.
+Detail-oriented Data Specialist with a strong foundation in Information Systems (GPA: 3.66) and end-to-end expertise bridging data engineering pipelines with business intelligence. Proficient in building containerized ELT workflows, implementing Medallion Lakehouses, and designing dimensional models using Python, Apache Airflow, Docker, and PostgreSQL. Experienced in transforming complex transactional data into high-impact Tableau and Looker Studio dashboards to drive data-backed strategic decisions.
 
 📍 Jakarta / Tangerang Selatan, Indonesia  
 📧 davidsebastianartt@gmail.com
@@ -27,8 +27,10 @@ For a comprehensive view of my professional background, project achievements, te
 * **SQL & Databases:** Google BigQuery, PostgreSQL, Data Joins, Subqueries, CTEs
 * **Spreadsheet Analytics:** Microsoft Excel, Google Sheets, Power Query, Pivot Tables, Advanced Formulas
 * **Data Visualization:** Tableau Public, Google Looker Studio, Interactive Dashboards
+* **Data Engineering & Orchestration:** Apache Airflow (DAGs Orchestration), MinIO/S3 Object Storage, Medallion Architecture, Dimensional Modelling
 * **Programming & Libraries:** Python (Pandas, NumPy, Matplotlib, Seaborn), Google Colab, Data Cleansing
 * **Methodologies & Frameworks:** Exploratory Data Analysis (EDA), Hypothesis Testing, ETL Pipelines, Business Process Mapping
+* **Tools & DevOps:** Docker, Docker Compose, Git/GitHub
 
 ---
 
