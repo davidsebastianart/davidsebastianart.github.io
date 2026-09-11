@@ -1,4 +1,4 @@
-### Data Specialist | ELT Pipelines, Data Modeling, & Business Intelligence
+### Data Specialist | ETL Pipelines, Data Modeling, & Business Intelligence
 
 Detail-oriented Data Specialist with a strong foundation in Information Systems (GPA: 3.66) and end-to-end expertise bridging data engineering pipelines with business intelligence. Proficient in building containerized ELT workflows, implementing Medallion Lakehouses, and designing dimensional models using Python, Apache Airflow, Docker, and PostgreSQL. Experienced in transforming complex transactional data into high-impact Tableau and Looker Studio dashboards to drive data-backed strategic decisions.
 
