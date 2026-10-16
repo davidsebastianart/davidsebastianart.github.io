@@ -41,10 +41,11 @@ For a comprehensive view of my professional background, project achievements, te
 ---
 
 ## 📌 Featured Projects
+* **Brand Memo-to-Data Workflow (Simulation)** — Built a Google Sheets workflow that validates brand price and promo memos before they reach a 982-SKU master database, with rule-based checks, change log, brand query log, and a management dashboard. Held 5 of 10 changes for review.
+* **Containerized Retail Medallion Pipeline** — Built an automated, multi-tier ELT Lakehouse pipeline with Docker, Apache Airflow, and MinIO to process ~780K retail transactions into a PostgreSQL Star Schema.
 * **Global Electronics Retailer: Commercial Performance Audit** — Engineered ETL data pipeline in BigQuery and built interactive Tableau dashboards to analyze seasonal revenue spikes and customer demographics.
 * **Jakarta FnB KOL Audit (Social Media Analytics)** — Audited influencer engagement metrics and ROI effectiveness using Python for visual storytelling and content strategy optimization.
 * **UMKM Financial Success Analysis** — Created interactive Excel dashboards with Power Query & PivotTables to benchmark SME financial health and digital adoption.
-* **Containerized Retail Medallion Pipeline** — Built an automated, multi-tier ELT Lakehouse pipeline with Docker, Apache Airflow, and MinIO to process ~780K retail transactions into a PostgreSQL Star Schema.
 
 > 📁 **[Click here to view all project source code & documentation repositories](https://github.com/davidsebastianart/)**
 
