@@ -1,6 +1,10 @@
-### Data Specialist | ETL Pipelines, Data Modeling, & Business Intelligence
+### Data Analyst & Data Engineer | SQL, Python, ETL Pipelines & Business Intelligence
 
-Detail-oriented Data Specialist with a strong foundation in Information Systems (GPA: 3.66) and end-to-end expertise bridging data engineering pipelines with business intelligence. Proficient in building containerized ELT workflows, implementing Medallion Lakehouses, and designing dimensional models using Python, Apache Airflow, Docker, and PostgreSQL. Experienced in transforming complex transactional data into high-impact Tableau and Looker Studio dashboards to drive data-backed strategic decisions.
+Data professional (Information Systems, GPA 3.66) who turns raw, messy data into accurate, decision-ready
+insights. Skilled in Excel, Google Sheets, SQL (BigQuery, PostgreSQL), and Python for data cleaning and
+analysis, and in Tableau and Google Data Studio for dashboards and reporting. Experienced in building
+automated data pipelines (Airflow, Docker) and presenting findings to stakeholders. Detail-oriented and
+adaptable across business domains.
 
 📍 Jakarta / Tangerang Selatan, Indonesia  
 📧 davidsebastianartt@gmail.com
