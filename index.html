@@ -76,6 +76,27 @@ footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid 
 :focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 @media(max-width:760px){.certs{columns:1}.hero,.two,.facts,.sk{grid-template-columns:1fr}.hero{padding-top:36px}nav div{overflow-x:auto;white-space:nowrap}nav div a{margin-left:12px;font-size:13px}.photo{order:-1;width:230px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+@media (max-width: 600px) {
+  nav .w {
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  nav div a {
+    margin: 0;
+    font-size: 12px;
+  }
+}
 </style>
 </head>
 <body>
