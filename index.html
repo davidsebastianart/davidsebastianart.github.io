@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Sebastian Aritonang | Data Analyst &amp; Data Engineer</title>
+<meta name="description" content="Data Analyst & Data Engineer: SQL, Python, ETL pipelines and business intelligence dashboards.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#16233b;--mut:#5b6b82;--line:#e2e8f2;--ac:#2f6bff;--ac2:#dff0ea;--sand:#fbeed6}
+@media(prefers-color-scheme:dark){:root{--bg:#0f172a;--card:#172036;--ink:#e8eefb;--mut:#9aa9c2;--line:#27334f;--ac:#7aa2ff;--ac2:#16352f;--sand:#3a3018}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 "Plus Jakarta Sans",system-ui,sans-serif}
+a{color:inherit}
+.w{max-width:1040px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);}
+nav .w{display:flex;justify-content:flex-end;align-items:center;height:60px}
+nav b{font:600 18px Fraunces,serif}nav div a{margin-left:20px;text-decoration:none;color:var(--mut);font-size:14px}nav div a:hover{color:var(--ink)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center;padding:72px 22px 56px}
+.hero h1{font-size:clamp(34px,5.4vw,56px);margin-bottom:14px}
+.hero p{color:var(--mut);max-width:520px;margin:0 0 22px}
+.btn{display:inline-block;padding:11px 20px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:14px;margin:0 8px 8px 0;border:1px solid var(--ink);cursor:pointer}
+.btn.o{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{transform:translateY(-1px)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.chips li,.tag{font-size:12.5px;padding:3px 11px;border-radius:999px;background:var(--ac2);color:var(--ink)}
+.photo{position:relative;width:min(340px,80%);aspect-ratio:1;margin:auto}
+.photo::before{content:"";position:absolute;inset:-14px -10px 10px 14px;border-radius:58% 42% 55% 45%/48% 56% 44% 52%;background:var(--sand);animation:morph 14s ease-in-out infinite alternate}
+.photo .pic{position:absolute;inset:0;border-radius:45% 55% 48% 52%/55% 45% 55% 45%;overflow:hidden;background:linear-gradient(135deg,var(--ac),#7fd6c2);box-shadow:0 18px 40px rgba(22,35,59,.18);display:grid;place-items:center;font:600 84px Fraunces,serif;color:#fff}
+.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+@keyframes morph{to{border-radius:45% 55% 42% 58%/58% 44% 56% 42%;transform:rotate(4deg)}}
+section{padding:44px 0}
+h2{font-size:30px;margin-bottom:6px}.sub{color:var(--mut);margin:0 0 26px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;text-align:left;padding:0;font:inherit;color:inherit;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(22,35,59,.12)}
+.thumb{aspect-ratio:16/10;background:var(--ac2);overflow:hidden}.thumb img,.thumb svg{width:100%;height:100%;object-fit:cover;display:block}
+.card .b{padding:16px 18px 18px}.card h3{font-size:19px;margin-bottom:6px}.card p{margin:0 0 12px;color:var(--mut);font-size:14.5px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.box h3{font-size:19px;margin-bottom:12px}.box ul{margin:0;padding-left:18px;color:var(--mut)}.box li{margin-bottom:6px}.box b{color:var(--ink)}
+dialog{border:0;border-radius:20px;padding:0;max-width:880px;width:calc(100% - 28px);max-height:92vh;background:var(--card);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,18,35,.6)}
+.m-top{aspect-ratio:16/8;background:var(--ac2);position:relative}.m-top img,.m-top svg,.m-top iframe{width:100%;height:100%;border:0;object-fit:cover;display:block}
+.m-body{padding:24px 28px 28px}.m-body h2{margin-bottom:8px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:20px 0}
+.facts h4{margin:0 0 4px;font-size:14px}.facts p{margin:0;font-size:14px;color:var(--mut)}
+.x{position:absolute;top:12px;right:12px;z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:var(--card);color:var(--ink);font-size:20px;cursor:pointer}
+footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid var(--line);margin-top:30px}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+@media(max-width:760px){.hero,.two,.facts{grid-template-columns:1fr}.hero{padding-top:36px}nav div a:nth-child(n+4){display:none}.photo{order:-1;width:230px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<nav><div class="w"><div><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">Experience</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="w hero">
+  <div>
+    <h1>I turn messy data into decisions people can act on.</h1>
+    <p>I'm David Sebastian Aritonang, a Data Analyst &amp; Data Engineer (Information Systems, GPA 3.66). I build SQL and Python pipelines, and dashboards that business teams actually open.</p>
+    <ul class="chips"><li>SQL</li><li>Python</li><li>Tableau</li><li>Airflow &amp; Docker</li><li>BigQuery</li></ul>
+    <a class="btn" href="#projects">See my projects</a>
+    <a class="btn o" href="https://docs.google.com/document/d/16yiq3gLZDm5iW3tbkudBPwVMoj9eGL5-y6D3RT0brlw/export?format=pdf">Download resume</a>
+  </div>
+  <div class="photo"><div class="pic">DS<img src="/assets/img/profile.jpg" alt="Portrait of David Sebastian Aritonang" onerror="this.remove()"></div></div>
+</header>
+
+<main class="w">
+<section id="projects">
+  <h2>Featured projects</h2>
+  <p class="sub">Select a project to see the problem, approach, result and a preview.</p>
+  <div class="grid" id="grid"></div>
+  <p style="text-align:center;margin:30px 0 0"><a class="btn o" href="https://github.com/davidsebastianart/">View more projects on GitHub</a></p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2><p class="sub">Tools I use day to day.</p>
+  <div class="two">
+    <div class="box"><h3>Analysis &amp; BI</h3><ul>
+      <li><b>SQL:</b> BigQuery, PostgreSQL, joins, subqueries, CTEs</li>
+      <li><b>Spreadsheets:</b> Excel, Google Sheets, Power Query, PivotTables</li>
+      <li><b>Visualization:</b> Tableau Public, Looker Studio</li>
+      <li><b>Python:</b> Pandas, NumPy, Matplotlib, Seaborn</li></ul></div>
+    <div class="box"><h3>Data engineering</h3><ul>
+      <li><b>Orchestration:</b> Apache Airflow (DAGs)</li>
+      <li><b>Storage &amp; modelling:</b> MinIO/S3, Medallion architecture, Star Schema</li>
+      <li><b>DevOps:</b> Docker, Docker Compose, Git/GitHub</li>
+      <li><b>Methods:</b> EDA, hypothesis testing, ETL</li></ul></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Experience &amp; certifications</h2><p class="sub">&nbsp;</p>
+  <div class="two">
+    <div class="box"><h3>Experience</h3><ul>
+      <li><b>Big Data Analytics Project-Based Intern</b>, Kimia Farma x Rakamin Academy</li>
+      <li><b>Machine Learning Cohort (Studi Independen)</b>, Bangkit Academy</li></ul></div>
+    <div class="box"><h3>Certifications</h3><ul>
+      <li>Google Data Analytics &amp; Google AI (Coursera)</li>
+      <li>Data Analyst, BNSP</li>
+      <li>Associate Data Engineer in SQL, DataCamp</li>
+      <li><a href="/certifications/">See all verified certificates</a></li></ul></div>
+  </div>
+</section>
+</main>
+
+<footer id="contact"><div class="w">
+  <h2 style="margin-bottom:10px">Let's talk</h2>
+  <p>Open to data analyst and data engineer roles. Jakarta / Tangerang Selatan, Indonesia.</p>
+  <a class="btn" href="mailto:davidsebastianartt@gmail.com">Email me</a>
+  <a class="btn o" href="https://www.linkedin.com/in/david-sartt/">LinkedIn</a>
+  <a class="btn o" href="https://github.com/davidsebastianart">GitHub</a>
+  <a class="btn o" href="https://public.tableau.com/app/profile/david.sebastian6737/vizzes">Tableau Public</a>
+</div></footer>
+
+<dialog id="dlg"><div class="m-top" id="mTop"></div><button class="x" id="close" aria-label="Close">&times;</button><div class="m-body" id="mBody"></div></dialog>
+
+<script>
+/* ============ EDIT YOUR PROJECTS HERE ============
+ img   : path to screenshot (put file in /assets/img/). If missing, an illustration shows instead.
+ embed : optional Tableau / Looker Studio embed URL, shown inside the popup.
+ repo  : GitHub link of the project.                                  */
+var G="https://github.com/davidsebastianart";
+var P=[
+{id:"pipeline",kind:"flow",cat:"Data Engineering",title:"Containerized Retail Medallion Pipeline",
+ sum:"Automated ELT lakehouse that turns ~780K retail transactions into a PostgreSQL Star Schema.",
+ tags:["Airflow","Docker","MinIO","PostgreSQL"],img:"/assets/img/pipeline.png",embed:"",repo:G,
+ problem:"Raw retail transactions needed to become reliable, query-ready tables without manual steps.",
+ how:"Built a multi-tier (Medallion) ELT flow orchestrated by Airflow DAGs, with MinIO object storage and Docker Compose.",
+ result:"~780K transactions loaded into a PostgreSQL Star Schema, rebuilt automatically on every run."},
+{id:"electronics",kind:"bars",cat:"Dashboards",title:"Global Electronics Retailer: Performance Audit",
+ sum:"BigQuery ETL and interactive Tableau dashboards on seasonal revenue and customer demographics.",
+ tags:["BigQuery","SQL","Tableau"],img:"/assets/img/electronics.png",embed:"",repo:G,
+ problem:"Leadership needed to understand when revenue spikes and which customers drive it.",
+ how:"Engineered an ETL pipeline in BigQuery, then built interactive Tableau dashboards on top of it.",
+ result:"Clear view of seasonal revenue spikes and customer demographics in one dashboard."},
+{id:"memo",kind:"grid",cat:"Spreadsheets",title:"Brand Memo-to-Data Workflow (Simulation)",
+ sum:"Google Sheets workflow that validates price and promo memos before they reach a 982-SKU master database.",
+ tags:["Google Sheets","Data Validation","Dashboard"],img:"/assets/img/memo.png",embed:"",repo:G,
+ problem:"Price and promo memos could overwrite the master database with unchecked changes.",
+ how:"Rule-based checks, a change log, a brand query log and a management dashboard.",
+ result:"5 of 10 changes were held for review instead of being pushed straight into the 982-SKU master."},
+{id:"kol",kind:"lines",cat:"Python",title:"Jakarta FnB KOL Audit",
+ sum:"Social media analytics on influencer engagement and ROI effectiveness, told through visuals.",
+ tags:["Python","Pandas","Seaborn"],img:"/assets/img/kol.png",embed:"",repo:G,
+ problem:"Brands need to know which influencers actually deliver engagement for their spend.",
+ how:"Audited engagement metrics and ROI in Python and built visual stories for content strategy.",
+ result:"Evidence-based view of which influencer content performs best."},
+{id:"umkm",kind:"bars",cat:"Dashboards",title:"UMKM Financial Success Analysis",
+ sum:"Interactive Excel dashboards benchmarking SME financial health and digital adoption.",
+ tags:["Excel","Power Query","PivotTable"],img:"/assets/img/umkm.png",embed:"",repo:G,
+ problem:"Understand how financial health relates to digital adoption among SMEs.",
+ how:"Cleaned data with Power Query and built PivotTable-driven interactive dashboards.",
+ result:"A benchmark dashboard anyone can filter and explore in Excel."}
+];
+
+/* ---- illustration fallback (used when a screenshot is not found) ---- */
+function art(k){
+ var s='<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e9f1fb"/><rect x="14" y="14" width="292" height="172" rx="12" fill="#fff"/>',i;
+ if(k=="bars"){for(i=0;i<8;i++){var h=30+((i*37)%70);s+='<rect x="'+(34+i*32)+'" y="'+(160-h)+'" width="20" height="'+h+'" rx="4" fill="'+(i%3?'#2f6bff':'#7fd6c2')+'"/>'}s+='<rect x="34" y="28" width="90" height="10" rx="5" fill="#cfd9ea"/>'}
+ else if(k=="flow"){var n=["#2f6bff","#7fd6c2","#f2c94c","#2f6bff"];for(i=0;i<4;i++){s+='<rect x="'+(26+i*72)+'" y="76" width="56" height="48" rx="10" fill="'+n[i]+'"/>';if(i<3)s+='<path d="M'+(84+i*72)+' 100h12" stroke="#16233b" stroke-width="3"/>'}}
+ else if(k=="lines"){s+='<path d="M30 150 L80 110 L130 128 L190 70 L250 90 L292 44" fill="none" stroke="#2f6bff" stroke-width="4" stroke-linecap="round"/><path d="M30 160 L90 140 L150 150 L210 110 L292 120" fill="none" stroke="#7fd6c2" stroke-width="4" stroke-linecap="round"/>'}
+ else{for(i=0;i<20;i++)s+='<rect x="'+(30+(i%5)*54)+'" y="'+(36+Math.floor(i/5)*34)+'" width="46" height="26" rx="6" fill="'+(i%7==0?'#f2c94c':i%3?'#e1e9f5':'#bcd2ff')+'"/>'}
+ return s+'</svg>'}
+function media(p,cls){return '<img src="'+p.img+'" alt="'+p.title+' preview" loading="lazy" onerror="this.outerHTML=art(\''+p.kind+'\')">'}
+
+/* ---- render ---- */
+var grid=document.getElementById("grid");
+P.forEach(function(p){
+ var b=document.createElement("button");b.className="card";
+ b.innerHTML='<div class="thumb">'+media(p)+'</div><div class="b"><h3>'+p.title+'</h3><p>'+p.sum+'</p><div class="tags">'+p.tags.map(function(t){return '<span class="tag">'+t+'</span>'}).join("")+'</div></div>';
+ b.onclick=function(){open(p)};grid.appendChild(b)});
+
+var dlg=document.getElementById("dlg"),top_=document.getElementById("mTop"),body=document.getElementById("mBody");
+function open(p){
+ top_.innerHTML=media(p);
+ var live=p.embed?'<button class="btn" id="live">Open interactive dashboard</button>':'';
+ body.innerHTML='<h2>'+p.title+'</h2><p class="sub" style="margin:0">'+p.sum+'</p>'+
+ '<div class="facts"><div><h4>Problem</h4><p>'+p.problem+'</p></div><div><h4>Approach</h4><p>'+p.how+'</p></div><div><h4>Result</h4><p>'+p.result+'</p></div></div>'+
+ '<div class="tags" style="margin-bottom:18px">'+p.tags.map(function(t){return '<span class="tag">'+t+'</span>'}).join("")+'</div>'+live+
+ (p.repo?'<a class="btn o" href="'+p.repo+'">View on GitHub</a>':'');
+ if(p.embed)document.getElementById("live").onclick=function(){top_.innerHTML='<iframe src="'+p.embed+'" title="'+p.title+'" loading="lazy"></iframe>'};
+ dlg.showModal()}
+document.getElementById("close").onclick=function(){dlg.close()};
+dlg.addEventListener("click",function(e){if(e.target===dlg)dlg.close()});
+</script>
+</body>
+</html>
