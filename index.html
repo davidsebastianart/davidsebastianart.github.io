@@ -75,23 +75,17 @@ dialog::backdrop{background:rgba(10,18,35,.6)}
 footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid var(--line);margin-top:30px}
 :focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 
-.contact-description {
-  text-align: left;
-  margin-bottom: 0;
-}
-
 .location {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  margin-left: 5px;
   color: var(--mut);
   font-size: 14px;
-  white-space: nowrap;
+  margin-top: 16px;
 }
 
-.location svg {
-  flex-shrink: 0;
+.availability {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 12px;
 }
 
 @media(max-width:760px){.certs{columns:1}.hero,.two,.facts,.sk{grid-template-columns:1fr}.hero{padding-top:36px}nav div{overflow-x:auto;white-space:nowrap}nav div a{margin-left:12px;font-size:13px}.photo{order:-1;width:230px}}
@@ -189,24 +183,14 @@ footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid 
 
 <footer id="contact"><div class="w">
   <h2 style="margin-bottom:10px">Let's Connect</h2>
-  <p class="contact-description">
-    Have an opportunity, a project, or just want to exchange ideas?
-    I'm always happy to connect and hear from you.
-    <span class="location">
-      <svg xmlns="http://www.w3.org/2000/svg"
-           width="15"
-           height="15"
-           viewBox="0 0 24 24"
-           fill="none"
-           stroke="currentColor"
-           stroke-width="2"
-           stroke-linecap="round"
-           stroke-linejoin="round">
-        <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/>
-        <circle cx="12" cy="10" r="2.5"/>
-      </svg>
-      Jakarta / South Tangerang, Indonesia
-    </span>
+  <p>
+  Have an opportunity, a project, or just want to exchange ideas?
+  I'm always happy to connect and hear from you.
+  </p>
+
+  <p class="location">
+    <i class="fas fa-map-marker-alt"></i>
+    Jakarta / South Tangerang, Indonesia
   </p>
   <a class="btn" href="mailto:davidsebastianartt@gmail.com">Email me</a>
   <a class="btn o" href="https://www.linkedin.com/in/david-sartt/">LinkedIn</a>
