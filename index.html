@@ -76,18 +76,19 @@ footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid 
 :focus-visible{outline:3px solid var(--ac);outline-offset:2px}
 
 .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   color: var(--mut);
   font-size: 14px;
   margin-top: 16px;
 }
 
-.availability {
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-top: 12px;
+.location svg {
+  flex-shrink: 0;
 }
-  
+
 @media(max-width:760px){.certs{columns:1}.hero,.two,.facts,.sk{grid-template-columns:1fr}.hero{padding-top:36px}nav div{overflow-x:auto;white-space:nowrap}nav div a{margin-left:12px;font-size:13px}.photo{order:-1;width:230px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
@@ -188,11 +189,19 @@ footer{padding:40px 0 60px;color:var(--mut);font-size:14px;border-top:1px solid 
   I'm always happy to connect and hear from you.
   </p>
   <p class="location">
-  <i class="fas fa-map-marker-alt"></i>
-  Jakarta / South Tangerang, Indonesia
-  </p>
-  <p class="availability">
-  Open to Data Analyst &amp; Data Engineer Opportunities
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="16"
+         height="16"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+      <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/>
+      <circle cx="12" cy="10" r="2.5"/>
+    </svg>
+    <span>Jakarta / South Tangerang, Indonesia</span>
   </p>
   <a class="btn" href="mailto:davidsebastianartt@gmail.com">Email me</a>
   <a class="btn o" href="https://www.linkedin.com/in/david-sartt/">LinkedIn</a>
