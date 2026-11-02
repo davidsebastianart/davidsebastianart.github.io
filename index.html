@@ -10,24 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!--
-    ======================================================================
-    HOW THIS FILE IS ORGANIZED
-    ======================================================================
-    1. STYLES  (style block)  : design tokens (colors) first, then one block per section
-    2. CONTENT (body)         : nav, hero, about, projects, skills, experience,
-                                education, certifications, footer
-    3. SCRIPT  (script block) : project data (edit here to add projects), then
-                                the code that draws the cards and the popup
-
-    QUICK EDITS
-    - Change colors ........ STYLES, section 1 (design tokens)
-    - Change text .......... CONTENT, search for the section comment
-    - Add / edit a project . SCRIPT, section 1 (PROJECTS)
-    - Change contact links . CONTENT, FOOTER
-    ======================================================================
-  -->
-
   <style>
     /* ==================================================================
        1. DESIGN TOKENS  (colors; the dark theme overrides them)
@@ -884,21 +866,6 @@
   </template>
 
   <script>
-    /* ==================================================================
-       1. PROJECT DATA  (edit here to add or change projects)
-
-       Fields of each project:
-         id, title, summary, tags     required
-         image       screenshot for the card and the popup
-         art         fallback drawing if the image fails: flow | bars | lines | grid
-         diagram     optional key of an inline diagram (see DIAGRAMS below)
-         embed       optional Tableau / Looker Studio embed URL
-         embedRatio  height divided by width of the embedded dashboard
-         report      optional PDF path inside the project repo (the part after /blob/main/)
-         repo        GitHub repository URL
-         links       optional extra buttons: [["Label", "URL"]]
-         problem, approach, result   the three columns in the popup
-       ================================================================== */
     var PROJECTS = [
       {
         id: "pipeline",
